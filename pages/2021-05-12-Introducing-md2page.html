@@ -1,0 +1,75 @@
+<h1>Markdown to Pages</h1><hr><h1>Introducing md2page</h1>
+<h2>Why I created md2page</h2>
+<p>The purpose to create <strong>md2page</strong> was to find a simplest way to host a personal website. There are some existing site generators, like Jekyll and Material for MkDocs, but I think they're not simple enough.</p>
+<p>I used to take note using MicroSoft OneNote, which was easy to use and powerful. But I found the problem when my subscription expired and wanted to transfer all my notes to another platform. It was not easy, as OneNote has its own format. So I decided to use Markdown to take note, which I can store the notes anywhere without platform limitation.</p>
+<p>Futher more, I want to share my notes in my personal blog, as I don't need any fancy themes, just the simplest personal website, I chose Github page and tried <strong>Jekyll</strong> and <strong>Material for MkDocs</strong> to transform my markdown notes into html pages. Aftr playing with these two tools for a while, I decided to create my own tool to generate personal pages.</p>
+<h3>Advantages of md2page</h3>
+<ul>
+<li>You can just click the html file to verify the page, no need to host it like 127.0.0.1:8000</li>
+<li>No need to setup Github action</li>
+</ul>
+<h3>Disadvantage of md2page</h3>
+<ul>
+<li>This is just a initial version, the index page is super simple</li>
+</ul>
+<h3>What to expect in the further versions</h3>
+<ul>
+<li>More beautiful index page</li>
+<li>Categorize notes</li>
+</ul>
+<h2>How to use md2page</h2>
+<ol>
+<li>
+<p>Create a folder with any name you like, or just fork this git</p>
+</li>
+<li>
+<p>Make sure the folder has following items</p>
+<p><img alt="Initial Version" src="../images/initial_version.png" /></p>
+</li>
+<li>
+<p>Place your markdown notes in "markdown" folder, the file name should use following format:</p>
+<p>yyyy-mm-dd-title.md</p>
+</li>
+<li>
+<p>Execute md2page.py in command line</p>
+<p><code>Python
+python3 md2page.py</code></p>
+</li>
+<li>
+<p>You html pages are ready, just click "index.html", your notes are linked</p>
+</li>
+</ol>
+<h2>How to host in Github page</h2>
+<ol>
+<li>
+<p>Create a new repository</p>
+</li>
+<li>
+<p>Copy or upload all the items in your folder</p>
+</li>
+<li>
+<p>Go to "Settings -&gt; Pages", choose <strong>Branch</strong> and <strong>Source Folder</strong>, click <strong>Save</strong></p>
+<p><img alt="Github Page" src="../images/github_page.png" /></p>
+</li>
+<li>
+<p>Wait a few seconds, refresh the page, until you see below message</p>
+<p><img alt="Github Page OK" src="../images/github_page_done.png" /></p>
+</li>
+<li>
+<p>Your personal website is live!</p>
+</li>
+</ol>
+<h2>New pages</h2>
+<ol>
+<li>
+<p>Create new markdown files in <strong>markdown</strong> folder</p>
+</li>
+<li>
+<p>Execute md2page.py in command line</p>
+<p><code>Python
+python3 md2page.py</code></p>
+</li>
+<li>
+<p>Synchronise with github repository</p>
+</li>
+</ol>
