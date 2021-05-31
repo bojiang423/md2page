@@ -31,7 +31,9 @@ Futher more, I want to share my notes in my personal blog, as I don't need any f
 
     ![Initial Version](../images/initial_version.png)
 
-3. Place your markdown notes in "markdown" folder
+3. Place your markdown notes in "markdown" folder, the file name should use following format:
+
+    yyyy-mm-dd-title.md
 
 4. Execute md2page.py in command line
 
