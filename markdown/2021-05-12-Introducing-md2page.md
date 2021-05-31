@@ -51,11 +51,11 @@ Futher more, I want to share my notes in my personal blog, as I don't need any f
 
 3. Go to "Settings -> Pages", choose **Branch** and **Source Folder**, click **Save**
 
-    ![Github Page](../images/github_page.png)
+    ![Github Page](../images/github_page_400x157.png)
 
 4. Wait a few seconds, refresh the page, until you see below message
 
-    ![Github Page OK](../images/github_page_done.png)
+    ![Github Page OK](../images/github_page_done_400x70.png)
 
 5. Your personal website is live!
 
